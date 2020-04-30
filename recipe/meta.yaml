@@ -10,6 +10,8 @@
 {% set botocore_max = botocore_major ~ '.' ~ (botocore_minor + 1) ~ '.0' %}
 {% set botocore_bounds = '>=' ~ botocore_min ~ ',<' ~ botocore_max %}
 
+# built from auto-update branch
+
 package:
   name: boto3
   version: {{ version }}
